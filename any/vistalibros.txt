@@ -26,10 +26,10 @@
                       android:orientation="horizontal">
             <ImageView
                     android:layout_width="126dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:id="@+id/imagen_psicoanalista"
                     android:layout_gravity="center"
-                    android:src="@drawable/big"
+                    android:src="@drawable/psicoanalista"
                     android:padding="16dp"/>
             <LinearLayout
                     android:layout_width="match_parent"
@@ -47,17 +47,17 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:textStyle="italic"
-                        android:text=" Selecc."
+                        android:text="Leer"
                         android:layout_weight="1"
                         android:background="@color/rosita"/>/>
             </LinearLayout>
 
             <ImageView
                     android:layout_width="126dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:id="@+id/imagen_harry"
                     android:layout_gravity="center"
-                    android:src="@drawable/harry"
+                    android:src="@drawable/hp"
                     android:padding="16dp"/>
             <LinearLayout
                     android:layout_width="match_parent"
@@ -67,14 +67,14 @@
                 <TextView
                         android:layout_width="match_parent"
                         android:textStyle="italic"
-                        android:text="'Harry Potter'"
+                        android:text="Harry Potter"
                         android:layout_weight="1"
                         android:layout_height="match_parent"/>
                 <Button
                         android:id="@+id/seleccionar2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Seleccionar"
+                        android:text="Leer"
                         android:layout_weight="1"
                         android:background="@color/rosita"/>/>
             </LinearLayout>
@@ -109,18 +109,18 @@
                     android:id="@+id/botoncito2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Selecc."
+                    android:text="leer"
                     android:layout_weight="1"
                     android:background="@color/rosita"/>/>
-                    android:background="@color/rosita"/>/>
+            android:background="@color/rosita"/>/>
         </LinearLayout>
 
         <ImageView
                 android:layout_width="126dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:id="@+id/imagen_biblia"
                 android:layout_gravity="center"
-                android:src="@drawable/orgullo"
+                android:src="@drawable/orgulloprejuicio"
                 android:padding="16dp"/>
         <LinearLayout
                 android:layout_width="match_parent"
@@ -130,14 +130,14 @@
             <TextView
                     android:layout_width="match_parent"
                     android:textStyle="italic"
-                    android:text="'La Biblia'"
+                    android:text="Orgullo y Prejuicio"
                     android:layout_weight="1"
                     android:layout_height="match_parent"/>
             <Button
                     android:id="@+id/botoncito1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Seleccionar"
+                    android:text="leer"
                     android:layout_weight="1"
                     android:background="@color/rosita"/>/>
         </LinearLayout>
@@ -150,10 +150,9 @@
                   android:layout_weight="1">
         <ImageView
                 android:layout_width="126dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/imagen_biblia"
+                android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:src="@drawable/principito"
+                android:src="@drawable/elprincipito"
                 android:padding="16dp"/>
         <LinearLayout
                 android:layout_width="match_parent"
@@ -163,14 +162,14 @@
             <TextView
                     android:layout_width="match_parent"
                     android:textStyle="italic"
-                    android:text="'La Biblia'"
+                    android:text="El Principito"
                     android:layout_weight="1"
                     android:layout_height="match_parent"/>
             <Button
                     android:id="@+id/botoncitopunto"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Seleccionar"
+                    android:text="leer"
                     android:layout_weight="1"
                     android:background="@color/rosita"/>/>
         </LinearLayout>
@@ -178,9 +177,8 @@
         <ImageView
                 android:layout_width="126dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/imagen_biblia"
                 android:layout_gravity="center"
-                android:src="@drawable/peregrino"
+                android:src="@drawable/biblia"
                 android:padding="16dp"/>
         <LinearLayout
                 android:layout_width="match_parent"
@@ -197,7 +195,7 @@
                     android:id="@+id/botoncito0"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="0"
+                    android:text="leer"
                     android:layout_weight="1"
                     android:background="@color/rosita"/>/>
         </LinearLayout>
