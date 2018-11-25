@@ -43,7 +43,7 @@
                         android:layout_weight="1"
                         android:layout_height="match_parent"/>
                 <Button
-                        android:id="@+id/seleccionar1"
+                        android:id="@+id/leerpsicoanalista"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:textStyle="italic"
@@ -71,7 +71,7 @@
                         android:layout_weight="1"
                         android:layout_height="match_parent"/>
                 <Button
-                        android:id="@+id/seleccionar2"
+                        android:id="@+id/leerhp"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Leer"
@@ -106,7 +106,7 @@
                     android:layout_weight="1"
                     android:layout_height="match_parent"/>
             <Button
-                    android:id="@+id/botoncito2"
+                    android:id="@+id/leerbiblia"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="leer"
@@ -134,7 +134,7 @@
                     android:layout_weight="1"
                     android:layout_height="match_parent"/>
             <Button
-                    android:id="@+id/botoncito1"
+                    android:id="@+id/leerorgullo"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="leer"
@@ -166,7 +166,7 @@
                     android:layout_weight="1"
                     android:layout_height="match_parent"/>
             <Button
-                    android:id="@+id/botoncitopunto"
+                    android:id="@+id/leerprincipito"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="leer"
@@ -178,7 +178,7 @@
                 android:layout_width="126dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:src="@drawable/biblia"
+                android:src="@drawable/elperegrino"
                 android:padding="16dp"/>
         <LinearLayout
                 android:layout_width="match_parent"
@@ -188,11 +188,11 @@
             <TextView
                     android:layout_width="match_parent"
                     android:textStyle="italic"
-                    android:text="'La Biblia'"
+                    android:text="El Peregrino"
                     android:layout_weight="1"
                     android:layout_height="match_parent"/>
             <Button
-                    android:id="@+id/botoncito0"
+                    android:id="@+id/leerperegrino"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="leer"
