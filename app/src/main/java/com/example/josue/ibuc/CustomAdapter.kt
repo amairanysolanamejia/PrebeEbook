@@ -12,8 +12,23 @@ import java.util.*
 class CustomAdapter(var context: Context, var libro: ArrayList<Libro>): BaseAdapter() {
 
     private class ViewHolder(row: View?){
-    var libro1: TextView
-    var book1: ImageView
+
+        //item list
+        var libro1: TextView
+        var book1: ImageView
+
+        //row_layout
+        var img: IntArray
+        var con: Context
+        var name: Array<String>
+
+        constructor(img: IntArray, con: Context, name: Array<String>): super(){
+
+            this.img = img
+            this.con = con
+            this.name = name
+        }
+
 
 
         init {

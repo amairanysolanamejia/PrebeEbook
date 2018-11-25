@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <GridView
+            android:id="@+id/gridView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numColumns="2"
+            android:padding="10dp"
+            android:horizontalSpacing="10dp"
+            android:verticalSpacing="10dp"
+            tools:ignore="MissingConstraints"/>
+
+    <TextView
+            android:id="@+id/libro1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="20sp"
+            android:textColor="#000000"
+
+
+            android:layout_alignBottom="@id/book1"
+
+            android:layout_toEndOf="@+id/book1"
+            android:layout_toRightOf="@+id/book1"
+            android:text="Nombre del Libro"
+
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="30dp"/>
+
+    <ImageView
+            android:id="@+id/book1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            tools:srcCompat="@drawable/cantohielofuego"/>
+</android.support.constraint.ConstraintLayout>
