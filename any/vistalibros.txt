@@ -11,6 +11,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Selecciona tu libro preferido"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:background="#F0F4C3"
+            android:typeface="serif"
+            android:textColor="@color/verdecito"
+            android:textSize="26dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -39,8 +45,11 @@
                 <TextView
                         android:layout_width="match_parent"
                         android:textStyle="italic"
-                        android:text="'El psicoanalista'"
+                        android:text="'El Psicoanalista'"
                         android:layout_weight="1"
+                        android:textColor="@color/rosita"
+                        android:textSize="15dp"
+                        android:typeface="serif"
                         android:layout_height="match_parent"/>
                 <Button
                         android:id="@+id/leerpsicoanalista"
@@ -49,7 +58,7 @@
                         android:textStyle="italic"
                         android:text="Leer"
                         android:layout_weight="1"
-                        android:background="@color/rosita"/>/>
+                        android:background="@color/verde"/>/>
             </LinearLayout>
 
             <ImageView
@@ -67,8 +76,10 @@
                 <TextView
                         android:layout_width="match_parent"
                         android:textStyle="italic"
-                        android:text="Harry Potter"
+                        android:text="'Harry Potter'"
                         android:layout_weight="1"
+                        android:textSize="17dp"
+                        android:typeface="serif"
                         android:layout_height="match_parent"/>
                 <Button
                         android:id="@+id/leerhp"
@@ -104,6 +115,8 @@
                     android:textStyle="italic"
                     android:text="'La Biblia'"
                     android:layout_weight="1"
+                    android:textSize="16dp"
+                    android:typeface="serif"
                     android:layout_height="match_parent"/>
             <Button
                     android:id="@+id/leerbiblia"
@@ -130,8 +143,11 @@
             <TextView
                     android:layout_width="match_parent"
                     android:textStyle="italic"
-                    android:text="Orgullo y Prejuicio"
+                    android:text="'Orgullo y Prejuicio'"
                     android:layout_weight="1"
+                    android:textColor="@color/rosita"
+                    android:textSize="14dp"
+                    android:typeface="serif"
                     android:layout_height="match_parent"/>
             <Button
                     android:id="@+id/leerorgullo"
@@ -139,7 +155,7 @@
                     android:layout_height="match_parent"
                     android:text="leer"
                     android:layout_weight="1"
-                    android:background="@color/rosita"/>/>
+                    android:background="@color/verde"/>/>
         </LinearLayout>
 
 
@@ -162,8 +178,11 @@
             <TextView
                     android:layout_width="match_parent"
                     android:textStyle="italic"
-                    android:text="El Principito"
+                    android:text="'El Principito'"
                     android:layout_weight="1"
+                    android:textColor="@color/rosita"
+                    android:textSize="14dp"
+                    android:typeface="serif"
                     android:layout_height="match_parent"/>
             <Button
                     android:id="@+id/leerprincipito"
@@ -171,7 +190,7 @@
                     android:layout_height="match_parent"
                     android:text="leer"
                     android:layout_weight="1"
-                    android:background="@color/rosita"/>/>
+                    android:background="@color/verde"/>/>
         </LinearLayout>
 
         <ImageView
@@ -188,8 +207,10 @@
             <TextView
                     android:layout_width="match_parent"
                     android:textStyle="italic"
-                    android:text="El Peregrino"
+                    android:text="'El Peregrino'"
                     android:layout_weight="1"
+                    android:textSize="17dp"
+                    android:typeface="serif"
                     android:layout_height="match_parent"/>
             <Button
                     android:id="@+id/leerperegrino"
