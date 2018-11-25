@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PrebeEbookFinal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cap1psycho">Aquí va el capítulo 1</string>
+    <string name="cap2psycho">Aquí va el capítulo 2</string>
+    <string name="cap3psycho">Aquí va el capítulo 3</string>
+
+    <string name="cap1hp">Aquí va el capítulo 1</string>
+    <string name="cap2hp">Aquí va el capítulo 2</string>
+    <string name="cap3hp">Aquí va el capítulo 3</string>
+
+    <string name="cap1biblia">Aquí va el capítulo 1</string>
+    <string name="cap2biblia">Aquí va el capítulo 2</string>
+    <string name="cap3biblia">Aquí va el capítulo 3</string>
+
+    <string name="cap1oyp">Aquí va el capítulo 1</string>
+    <string name="cap2oyp">Aquí va el capítulo 2</string>
+    <string name="cap3oyp">Aquí va el capítulo 3</string>
+
+    <string name="cap1principito">Aquí va el capítulo 1</string>
+    <string name="cap2principito">Aquí va el capítulo 2</string>
+    <string name="cap3principito">Aquí va el capítulo 3</string>
+
+    <string name="cap1peregrino">Aquí va el capítulo 1</string>
+    <string name="cap2peregrino">Aquí va el capítulo 2</string>
+    <string name="cap3peregrino">Aquí va el capítulo 3</string>
+</resources>

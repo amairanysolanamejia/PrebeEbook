@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecciona tu libro preferido"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:background="#F0F4C3"
+            android:typeface="serif"
+            android:textColor="@color/verdecito"
+            android:textSize="26dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="horizontal">
+            <ImageView
+                    android:layout_width="126dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imagen_psicoanalista"
+                    android:layout_gravity="center"
+                    android:src="@drawable/psicoanalista"
+                    android:padding="16dp"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:textStyle="italic"
+                        android:text="'El Psicoanalista'"
+                        android:layout_weight="1"
+                        android:textColor="@color/rosita"
+                        android:textSize="15dp"
+                        android:typeface="serif"
+                        android:layout_height="match_parent"/>
+                <Button
+                        android:id="@+id/leerpsicoanalista"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textStyle="italic"
+                        android:text="Leer"
+                        android:layout_weight="1"
+                        android:background="@color/verde"/>/>
+            </LinearLayout>
+
+            <ImageView
+                    android:layout_width="126dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imagen_harry"
+                    android:layout_gravity="center"
+                    android:src="@drawable/hp"
+                    android:padding="16dp"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:textStyle="italic"
+                        android:text="'Harry Potter'"
+                        android:layout_weight="1"
+                        android:textSize="17dp"
+                        android:typeface="serif"
+                        android:layout_height="match_parent"/>
+                <Button
+                        android:id="@+id/leerhp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Leer"
+                        android:layout_weight="1"
+                        android:background="@color/rosita"/>/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1">
+        <ImageView
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imagen_bibli"
+                android:layout_gravity="center"
+                android:src="@drawable/biblia"
+                android:padding="16dp"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:textStyle="italic"
+                    android:text="'La Biblia'"
+                    android:layout_weight="1"
+                    android:textSize="16dp"
+                    android:typeface="serif"
+                    android:layout_height="match_parent"/>
+            <Button
+                    android:id="@+id/leerbiblia"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="leer"
+                    android:layout_weight="1"
+                    android:background="@color/rosita"/>/>
+            android:background="@color/rosita"/>/>
+        </LinearLayout>
+
+        <ImageView
+                android:layout_width="126dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imagen_biblia"
+                android:layout_gravity="center"
+                android:src="@drawable/orgulloprejuicio"
+                android:padding="16dp"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:textStyle="italic"
+                    android:text="'Orgullo y Prejuicio'"
+                    android:layout_weight="1"
+                    android:textColor="@color/rosita"
+                    android:textSize="14dp"
+                    android:typeface="serif"
+                    android:layout_height="match_parent"/>
+            <Button
+                    android:id="@+id/leerorgullo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="leer"
+                    android:layout_weight="1"
+                    android:background="@color/verde"/>/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1">
+        <ImageView
+                android:layout_width="126dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/elprincipito"
+                android:padding="16dp"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:textStyle="italic"
+                    android:text="'El Principito'"
+                    android:layout_weight="1"
+                    android:textColor="@color/rosita"
+                    android:textSize="14dp"
+                    android:typeface="serif"
+                    android:layout_height="match_parent"/>
+            <Button
+                    android:id="@+id/leerprincipito"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="leer"
+                    android:layout_weight="1"
+                    android:background="@color/verde"/>/>
+        </LinearLayout>
+
+        <ImageView
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/elperegrino"
+                android:padding="16dp"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:textStyle="italic"
+                    android:text="'El Peregrino'"
+                    android:layout_weight="1"
+                    android:textSize="17dp"
+                    android:typeface="serif"
+                    android:layout_height="match_parent"/>
+            <Button
+                    android:id="@+id/leerperegrino"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="leer"
+                    android:layout_weight="1"
+                    android:background="@color/rosita"/>/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
