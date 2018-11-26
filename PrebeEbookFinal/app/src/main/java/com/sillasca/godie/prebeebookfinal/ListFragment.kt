@@ -31,6 +31,37 @@ class ListFragment : Fragment() {
             startActivity(`in`)
         }
 
+
+        val btnOpen2 = view.findViewById<View>(R.id.leerhp) as Button
+        btnOpen2.setOnClickListener {
+            val `in` = Intent(activity, ActividadHP::class.java)
+            startActivity(`in`)
+        }
+
+        val btnOpen3 = view.findViewById<View>(R.id.leerbiblia) as Button
+        btnOpen3.setOnClickListener {
+            val `in` = Intent(activity, ActividadBiblia::class.java)
+            startActivity(`in`)
+        }
+
+        val btnOpen4 = view.findViewById<View>(R.id.leerorgullo) as Button
+        btnOpen4.setOnClickListener {
+            val `in` = Intent(activity, ActividadOrgullo::class.java)
+            startActivity(`in`)
+        }
+
+        val btnOpen5 = view.findViewById<View>(R.id.leerprincipito) as Button
+        btnOpen5.setOnClickListener {
+            val `in` = Intent(activity, ActividadPrincipito::class.java)
+            startActivity(`in`)
+        }
+
+        val btnOpen6 = view.findViewById<View>(R.id.leerperegrino) as Button
+        btnOpen6.setOnClickListener {
+            val `in` = Intent(activity, ActividadPeregrino::class.java)
+            startActivity(`in`)
+        }
+
         return view
 
     }

@@ -22,6 +22,12 @@
         </activity>
         <activity android:name=".ActividadBiblia">
         </activity>
+        <activity android:name=".ActividadPeregrino">
+        </activity>
+        <activity android:name=".ActividadPrincipito">
+        </activity>
+        <activity android:name=".ActividadOrgullo">
+        </activity>
     </application>
 
 </manifest>
