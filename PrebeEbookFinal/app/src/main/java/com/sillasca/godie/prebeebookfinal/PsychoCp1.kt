@@ -7,6 +7,10 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
+import android.text.method.ScrollingMovementMethod
+
+
 
 
 class PsychoCp1 : Fragment() {
@@ -22,7 +26,13 @@ class PsychoCp1 : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater!!.inflate(R.layout.fragment_psycho_cp1, container, false)
+
+        val vista = inflater!!.inflate(R.layout.fragment_psycho_cp1, container, false)
+
+        val vist = vista.findViewById<View>(R.id.capitulo) as TextView
+        vist.movementMethod = ScrollingMovementMethod()
+
+        return vista
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {

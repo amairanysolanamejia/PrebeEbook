@@ -4,10 +4,11 @@ import android.content.Context
 import android.net.Uri
 import android.os.Bundle
 import android.support.v4.app.Fragment
+import android.text.method.ScrollingMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-
+import android.widget.TextView
 
 
 class BibliaCp2 : Fragment() {
@@ -21,7 +22,12 @@ class BibliaCp2 : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater!!.inflate(R.layout.fragment_biblia_cp2, container, false)
+        val vista = inflater!!.inflate(R.layout.fragment_biblia_cp2, container, false)
+
+        val vist = vista.findViewById<View>(R.id.capitulo) as TextView
+        vist.movementMethod = ScrollingMovementMethod()
+
+        return vista
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
