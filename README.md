@@ -14,5 +14,5 @@ dcasillasgreco@gmail.com  -> Diego Casillas
 Costo de la aplicación: $2 209 (considerando un salario mínimo)
 
 Tiempo que tomó el desarrollo de la aplicación: 100 horas
-![](./img/inicio.jpg)
-![](./img/lista.jpg)
+![](inicio.jpg)
+![](lista.jpg)
